@@ -20,5 +20,9 @@ public class Main {
     b.getY(6);
     // System.out.print(pw);
     b.getPieceCoords(pw);
+    b.setPieceAtCord(5, 5);
+
+    Knight k = new Knight(0, 0, false, false);
+    k.movements();
     }
 }

@@ -7,6 +7,7 @@ public class Pawn extends Piece {
 
 
     //Remake after board is implemented
+    @Override 
     public void movements(){
         System.out.println("pawn move");
     }
