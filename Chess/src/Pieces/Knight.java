@@ -1,7 +1,7 @@
 package Pieces;
 public class Knight extends Piece{
-    public Knight(int x, int y, boolean color, boolean deadOrAlive){
-        super(x, y, color, deadOrAlive);
+    public Knight(/*int x, int y, */boolean color, boolean deadOrAlive){
+        super(/*x, y, */color, deadOrAlive);
     }
 
 
